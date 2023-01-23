@@ -805,5 +805,21 @@
       <script src="js/all.js"></script>
       <!-- ALL PLUGINS -->
       <script src="js/custom.js"></script>
+
+<script>const settings = {
+	"async": true,
+	"crossDomain": true,
+	"url": "https://free-football-soccer-videos.p.rapidapi.com/",
+	"method": "GET",
+	"headers": {
+		"X-RapidAPI-Key": "908ca17ebbmshae64f48cd37a437p11defejsn9259f7c25557",
+		"X-RapidAPI-Host": "free-football-soccer-videos.p.rapidapi.com"
+	}
+};
+
+$.ajax(settings).done(function (response) {
+	console.log(response);
+});</script>
+
    </body>
 </html>
